@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         collapsingToolbarLayout = findViewById(R.id.collapsingToolbarLayout);
         compactcalendar_view_container = findViewById(R.id.compactcalendar_view_container);
-        setTitle("CompactCalendarViewToolbar");
+        setTitle("DelicateAppBarLayout");
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity
                 return false;
             }
         });
-        setSubtitle("hahaha");
+        setSubtitle("点我查看任务详情");
         compactcalendar_view_container.postDelayed(new Runnable() {
             @Override
             public void run() {
